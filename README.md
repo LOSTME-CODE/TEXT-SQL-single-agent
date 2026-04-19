@@ -9,7 +9,7 @@ Convert Natural Language Questions into SQL Queries and Get Instant Insights fro
 https://drive.google.com/file/d/1o7JuQqHzXJ-ZUVoW_3Mzl9SxfA7JTHup/view?usp=sharing
 ### **Screenshots**
 
-![App Screenshot](https://drive.google.com/file/d/1f1wj-_XC343twzUMNIzRV1SzGgzXrgui/view?usp=sharing )
+![App Screenshot](https://github.com/LOSTME-CODE/TEXT-SQL-single-agent/blob/0cda6a2d223de1b598ec4adcc92f54d900565b11/Screenshot%202026-04-19%20173833.png)
 ![App Screenshot](https://drive.google.com/file/d/1det-ouNCL-RkxhE7o4jALrIdLxSRXiLX/view?usp=sharing )
 ![App Screenshot](https://drive.google.com/file/d/1Brdo9Gx-DC8pOzZhC4BxMaqcwrabxLkB/view?usp=sharing )
 
