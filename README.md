@@ -5,8 +5,7 @@ Convert Natural Language Questions into SQL Queries and Get Instant Insights fro
 
 
 ### **Demo**
-
-![App Screenshot](https://github.com/LOSTME-CODE/TEXT-SQL-single-agent/blob/0b2efe1ae9825aba11c9650acd9e18d98e3a2062/1000198189.mp4)
+https://github.com/user-attachments/assets/4f57f867-f379-4d8d-b34e-44af6f1e6e11
 ### **Screenshots**
 
 ![App Screenshot](https://github.com/LOSTME-CODE/TEXT-SQL-single-agent/blob/0cda6a2d223de1b598ec4adcc92f54d900565b11/Screenshot%202026-04-19%20173833.png)
