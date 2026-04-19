@@ -1,2 +1,111 @@
-# TEXT-SQL-single-agent
-AI SQL Agent that converts natural language questions into SQL queries, executes them on SQL Server or CSV data, and returns both  results and human-readable insights through a Gradio interface. Built with Python, LangChain, Ollama and Pandas. 
+
+# **Text-SQL Single Agent**
+
+Convert Natural Language Questions into SQL Queries and Get Instant Insights from Databases or CSV Files.
+
+
+### **Demo**
+
+https://drive.google.com/file/d/1o7JuQqHzXJ-ZUVoW_3Mzl9SxfA7JTHup/view?usp=sharing
+### **Screenshots**
+
+![App Screenshot](https://drive.google.com/file/d/1f1wj-_XC343twzUMNIzRV1SzGgzXrgui/view?usp=sharing )
+![App Screenshot](https://drive.google.com/file/d/1det-ouNCL-RkxhE7o4jALrIdLxSRXiLX/view?usp=sharing )
+![App Screenshot](https://drive.google.com/file/d/1Brdo9Gx-DC8pOzZhC4BxMaqcwrabxLkB/view?usp=sharing )
+
+### **overview**
+**Text-SQL Single Agent** is an AI-powered data assistant that allows users to interact with structured data using plain English.  
+Instead of writing SQL manually, users can ask questions naturally, and the system automatically generates SQL queries, executes them, and returns results in both raw table format and human-readable summaries.
+
+The project includes UI built with Gradio and supports both:
+
+- SQL Server Databases  
+- CSV File Analysis
+### **Problem Statement**
+Many business users, analysts, and non-technical teams need quick access to data but face challenges such as:
+
+- Lack of SQL knowledge  
+- Dependency on technical teams  
+- Time-consuming manual querying  
+- Difficulty understanding raw query results
+
+This project solves that gap by enabling **natural language data interaction
+### **Tech Stack**
+
+
+| Category | Tools Used |
+|--------|------------|
+| Language | Python |
+| UI | Gradio |
+| LLM Framework | LangChain |
+| Local Model | Ollama |
+| Database | SQL Server |
+| CSV Engine | SQLite (In-Memory) |
+| Data Handling | Pandas |
+| Query Logic | Regex + Prompt Engineering |
+
+### **Result**
+
+Successfully converts 
+- English questions into SQL
+- Works on SQL Server and CSV files
+- Returns raw + summarized answers
+- Interactive modern UI experience
+### **Deployment**
+
+To deploy this project run
+
+```bash
+  pip install gradio langchain-ollama langchain-core pyodbc pandas
+```
+Download Ollama and pull model:
+```bash
+  ollama pull llama3.2:3b
+  ollama serve
+```
+Run Project
+```bash
+ python csvagent5.py
+```
+
+
+
+### **Future work**
+- Multi-database support (MySQL, PostgreSQL, Oracle)
+- Charts & Visualizations
+- Export to Excel / PDF
+- Voice Query Input
+- Authentication & Roles
+- Query Optimization Suggestions
+- RAG + SQL Hybrid Assistant
+- Multi-turn Memory Chat
+### **Methodology**
+```text
+Step 1: Input Source Selection
+- Connect SQL Server Database
+- Upload CSV File
+
+Step 2: Schema Extraction
+- Reads table names
+- Reads column names
+- Reads data types
+
+Step 3: Natural Language to SQL
+User Question → LLM + Schema Context → SQL Query Generation
+
+Example:
+Show top 5 employees by salary
+SELECT TOP 5 name, salary FROM employees ORDER BY salary DESC;
+
+Step 4: Query Validation
+Safety rules applied:
+- Only SELECT queries allowed
+- No DELETE / UPDATE / DROP
+- SQL cleaned before execution
+
+Step 5: Query Execution
+- SQL Server via pyodbc
+
+Step 6: NLP Response
+Raw output converted into readable answer
+
