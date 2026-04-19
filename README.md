@@ -2,11 +2,11 @@
 ## 📌 Table of Contents
 - <a href="#overview">Overview</a>
 - <a href="#Demo">Demo</a>
-- <a href="#Problem--Statement"> Problem Statement</a>
+- <a href="#problem-statement">Problem Statement</a>
 - <a href="#tools--technologies">Tools & Technologies</a>
 - <a href="#Result">Result</a>
 - <a href="#Deployment">Deployment</a>
-- <a href="#Future--work">Future work</a>
+- <a href="#future-work">Future Work</a>
 - <a href="#Methodology">Methodology</a>
 
 
@@ -33,7 +33,7 @@ The project includes UI built with Gradio and supports both:
 
 - SQL Server Databases  
 - CSV File Analysis
-<h3><a class="anchor" id="Problem--Statement"></a>Problem Statement</h3>
+<h3><a class="anchor" id="problem-statement"></a>Problem Statement</h3>
 Many business users, analysts, and non-technical teams need quick access to data but face challenges such as:
 
 - Lack of SQL knowledge  
@@ -85,7 +85,7 @@ Run Project
 
 
 
-<h3><a class="anchor" id="Future--work"></a>Future work</h3>
+<h3><a class="anchor" id="future-work"></a>Future Work</h3>
 
 - Multi-database support (MySQL, PostgreSQL, Oracle)
 - Charts & Visualizations
