@@ -1,17 +1,14 @@
 
 ## 📌 Table of Contents
 - <a href="#overview">Overview</a>
-- <a href="#business-problem">Business Problem</a>
-- <a href="#dataset">Dataset</a>
+- <a href="#Problem Statement"> Problem Statement</a>
 - <a href="#tools--technologies">Tools & Technologies</a>
-- <a href="#project-structure">Project Structure</a>
-- <a href="#data-cleaning--preparation">Data Cleaning & Preparation</a>
-- <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
-- <a href="#research-questions--key-findings">Research Questions & Key Findings</a>
-- <a href="#dashboard">Dashboard</a>
-- <a href="#how-to-run-this-project">How to Run This Project</a>
-- <a href="#final-recommendations">Final Recommendations</a>
-- <a href="#author--contact">Author & Contact</a>
+- <a href="#Result">Result</a>
+- <a href="#Demployment">Demployment</a>
+- <a href="#Future work">Future work</a>
+- <a href="# Methodoloy"> Methodoloy</a>
+
+
 # **Text-SQL Single Agent**
 
 Convert Natural Language Questions into SQL Queries and Get Instant Insights from Databases or CSV Files.
@@ -19,14 +16,14 @@ Convert Natural Language Questions into SQL Queries and Get Instant Insights fro
 
 ### **Demo**
 https://github.com/user-attachments/assets/4f57f867-f379-4d8d-b34e-44af6f1e6e11
-### **Screenshots**
+
 
 ![App Screenshot](https://github.com/LOSTME-CODE/TEXT-SQL-single-agent/blob/0cda6a2d223de1b598ec4adcc92f54d900565b11/Screenshot%202026-04-19%20173833.png)
 ![App Screenshot](https://github.com/LOSTME-CODE/TEXT-SQL-single-agent/blob/0b2efe1ae9825aba11c9650acd9e18d98e3a2062/Screenshot%202026-04-19%20173933.png)
 ![App Screenshot](https://github.com/LOSTME-CODE/TEXT-SQL-single-agent/blob/0b2efe1ae9825aba11c9650acd9e18d98e3a2062/Screenshot%202026-04-19%20173957.png)
 
-### **overview**
-<h2><a class="anchor" id="overview"></a>Overview</h2>
+
+<h3><a class="anchor" id="overview"></a>Overview</h3>
 **Text-SQL Single Agent** is an AI-powered data assistant that allows users to interact with structured data using plain English.  
 Instead of writing SQL manually, users can ask questions naturally, and the system automatically generates SQL queries, executes them, and returns results in both raw table format and human-readable summaries.
 
@@ -34,7 +31,7 @@ The project includes UI built with Gradio and supports both:
 
 - SQL Server Databases  
 - CSV File Analysis
-### **Problem Statement**
+<h3><a class="anchor" id=" Problem Statement"></a> Problem Statement</h3>
 Many business users, analysts, and non-technical teams need quick access to data but face challenges such as:
 
 - Lack of SQL knowledge  
@@ -43,7 +40,8 @@ Many business users, analysts, and non-technical teams need quick access to data
 - Difficulty understanding raw query results
 
 This project solves that gap by enabling **natural language data interaction
-### **Tech Stack**
+
+<h3><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h3>
 
 
 | Category | Tools Used |
@@ -57,14 +55,16 @@ This project solves that gap by enabling **natural language data interaction
 | Data Handling | Pandas |
 | Query Logic | Regex + Prompt Engineering |
 
-### **Result**
+<h3><a class="anchor" id="Result"></a>Result</h3>
 
 Successfully converts 
 - English questions into SQL
 - Works on SQL Server and CSV files
 - Returns raw + summarized answers
 - Interactive modern UI experience
-### **Deployment**
+
+<h3><a class="anchor" id="Deployment"></a>Deployment</h3>
+
 
 To deploy this project run
 
@@ -83,7 +83,8 @@ Run Project
 
 
 
-### **Future work**
+<h3><a class="anchor" id="Future work"></a>Future work</h3>
+
 - Multi-database support (MySQL, PostgreSQL, Oracle)
 - Charts & Visualizations
 - Export to Excel / PDF
@@ -92,7 +93,8 @@ Run Project
 - Query Optimization Suggestions
 - RAG + SQL Hybrid Assistant
 - Multi-turn Memory Chat
-### **Methodology**
+
+  <h3><a class="anchor" id="Methodology"></a>Methodology</h3>
 ```text
 Step 1: Input Source Selection
 - Connect SQL Server Database
