@@ -1,4 +1,17 @@
 
+## 📌 Table of Contents
+- <a href="#overview">Overview</a>
+- <a href="#business-problem">Business Problem</a>
+- <a href="#dataset">Dataset</a>
+- <a href="#tools--technologies">Tools & Technologies</a>
+- <a href="#project-structure">Project Structure</a>
+- <a href="#data-cleaning--preparation">Data Cleaning & Preparation</a>
+- <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
+- <a href="#research-questions--key-findings">Research Questions & Key Findings</a>
+- <a href="#dashboard">Dashboard</a>
+- <a href="#how-to-run-this-project">How to Run This Project</a>
+- <a href="#final-recommendations">Final Recommendations</a>
+- <a href="#author--contact">Author & Contact</a>
 # **Text-SQL Single Agent**
 
 Convert Natural Language Questions into SQL Queries and Get Instant Insights from Databases or CSV Files.
@@ -13,6 +26,7 @@ https://github.com/user-attachments/assets/4f57f867-f379-4d8d-b34e-44af6f1e6e11
 ![App Screenshot](https://github.com/LOSTME-CODE/TEXT-SQL-single-agent/blob/0b2efe1ae9825aba11c9650acd9e18d98e3a2062/Screenshot%202026-04-19%20173957.png)
 
 ### **overview**
+<h2><a class="anchor" id="overview"></a>Overview</h2>
 **Text-SQL Single Agent** is an AI-powered data assistant that allows users to interact with structured data using plain English.  
 Instead of writing SQL manually, users can ask questions naturally, and the system automatically generates SQL queries, executes them, and returns results in both raw table format and human-readable summaries.
 
