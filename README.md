@@ -6,12 +6,12 @@ Convert Natural Language Questions into SQL Queries and Get Instant Insights fro
 
 ### **Demo**
 
-https://drive.google.com/file/d/1o7JuQqHzXJ-ZUVoW_3Mzl9SxfA7JTHup/view?usp=sharing
+[https://drive.google.com/file/d/1o7JuQqHzXJ-ZUVoW_3Mzl9SxfA7JTHup/view?usp=sharing](https://github.com/LOSTME-CODE/TEXT-SQL-single-agent/blob/0b2efe1ae9825aba11c9650acd9e18d98e3a2062/1000198189.mp4)
 ### **Screenshots**
 
 ![App Screenshot](https://github.com/LOSTME-CODE/TEXT-SQL-single-agent/blob/0cda6a2d223de1b598ec4adcc92f54d900565b11/Screenshot%202026-04-19%20173833.png)
-![App Screenshot](https://drive.google.com/file/d/1det-ouNCL-RkxhE7o4jALrIdLxSRXiLX/view?usp=sharing )
-![App Screenshot](https://drive.google.com/file/d/1Brdo9Gx-DC8pOzZhC4BxMaqcwrabxLkB/view?usp=sharing )
+![App Screenshot](https://github.com/LOSTME-CODE/TEXT-SQL-single-agent/blob/0b2efe1ae9825aba11c9650acd9e18d98e3a2062/Screenshot%202026-04-19%20173933.png)
+![App Screenshot](https://github.com/LOSTME-CODE/TEXT-SQL-single-agent/blob/0b2efe1ae9825aba11c9650acd9e18d98e3a2062/Screenshot%202026-04-19%20173957.png)
 
 ### **overview**
 **Text-SQL Single Agent** is an AI-powered data assistant that allows users to interact with structured data using plain English.  
