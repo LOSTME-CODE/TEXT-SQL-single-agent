@@ -1,6 +1,7 @@
 
 ## 📌 Table of Contents
 - <a href="#overview">Overview</a>
+- <a href="#Demo">Demo</a>
 - <a href="#Problem Statement"> Problem Statement</a>
 - <a href="#tools--technologies">Tools & Technologies</a>
 - <a href="#Result">Result</a>
@@ -14,7 +15,7 @@
 Convert Natural Language Questions into SQL Queries and Get Instant Insights from Databases or CSV Files.
 
 
-### **Demo**
+<h3><a class="anchor" id="Demo"></a>Demo</h3>
 https://github.com/user-attachments/assets/4f57f867-f379-4d8d-b34e-44af6f1e6e11
 
 
