@@ -5,9 +5,9 @@
 - <a href="#Problem Statement"> Problem Statement</a>
 - <a href="#tools--technologies">Tools & Technologies</a>
 - <a href="#Result">Result</a>
-- <a href="#Demployment">Demployment</a>
+- <a href="#Deployment">Deployment</a>
 - <a href="#Future work">Future work</a>
-- <a href="# Methodoloy"> Methodoloy</a>
+- <a href="#Methodoloy">Methodoloy</a>
 
 
 # **Text-SQL Single Agent**
@@ -16,6 +16,7 @@ Convert Natural Language Questions into SQL Queries and Get Instant Insights fro
 
 
 <h3><a class="anchor" id="Demo"></a>Demo</h3>
+
 https://github.com/user-attachments/assets/4f57f867-f379-4d8d-b34e-44af6f1e6e11
 
 
@@ -32,7 +33,7 @@ The project includes UI built with Gradio and supports both:
 
 - SQL Server Databases  
 - CSV File Analysis
-<h3><a class="anchor" id=" Problem Statement"></a> Problem Statement</h3>
+<h3><a class="anchor" id="Problem Statement"></a>Problem Statement</h3>
 Many business users, analysts, and non-technical teams need quick access to data but face challenges such as:
 
 - Lack of SQL knowledge  
